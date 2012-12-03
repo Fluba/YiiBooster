@@ -655,8 +655,6 @@ class TbExtendedGridView extends TbGridView
 		if (!isset($config['class']))
 			throw new CException(Yii::t('zii', 'Column summary configuration must be an array containing a "type" element.'));
 
-		if (!in_array($config['class'], $this->extendedSummaryOperations))
-			throw new CException(Yii::t('zii', '"{operation}" is an unsupported class operation.', array('{operation}' => $config['class'])));
 
 		// name of the column should be unique
 		if (!isset($this->extendedSummaryTypes[$name]))
