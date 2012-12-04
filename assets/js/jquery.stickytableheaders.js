@@ -51,8 +51,7 @@
                     'position': 'fixed',
                     'top': 0,
                     'z-index': 1, // #18: opacity bug
-                    'display': 'none',
-                    'background-color':'#fff'
+                    'display': 'none'
                 });
 
                 base.$originalHeader.addClass('tableFloatingHeaderOriginal');
