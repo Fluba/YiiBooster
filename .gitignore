@@ -44,3 +44,12 @@ switch
 /console/config/*-local.php
 
 
+gii/bootstrap/templates/test/_form.php
+gii/bootstrap/templates/test/_search.php
+gii/bootstrap/templates/test/_view.php
+gii/bootstrap/templates/test/admin.php
+gii/bootstrap/templates/test/controller.php
+gii/bootstrap/templates/test/create.php
+gii/bootstrap/templates/test/index.php
+gii/bootstrap/templates/test/update.php
+gii/bootstrap/templates/test/view.php
